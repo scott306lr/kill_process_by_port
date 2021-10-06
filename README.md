@@ -2,7 +2,7 @@
 kills process occupying certain port.
 
 ### Usage
-You can copy this file into _/usr/local/bin/_ , then execute script by the following command:
+You can copy _kill-port.sh_ into _/usr/local/bin/_ , then execute script by the following command:
 ```bash
-sudo kill-port <port>
+sudo kill-port <port number>
 ```
