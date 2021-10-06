@@ -3,7 +3,6 @@ re='^[0-9]+$'
 
 if [ -z "$1" ] ; then
         echo "Usage: $0 <port number>"; exit 1;
-
 elif ! [[ $1 =~ $re ]] ; then
         echo "Input is not a valid number." >&2; exit 1;
 fi
